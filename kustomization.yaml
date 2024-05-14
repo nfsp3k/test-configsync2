@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
 - pod-ubuntu.yaml
 - pod-ubuntu2.yaml
+- namespace-bk21.yaml
