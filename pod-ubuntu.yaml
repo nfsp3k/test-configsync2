@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: busybox
+  name: Ubuntu
   namespace: default
   labels:
     app: ubuntu
 spec:
   containers:
-  - image: busybox
+  - image: nginx
     command:
       - "sleep"
       - "604800"
